@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WalletTracker.Account">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAEAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalletTracker.CreditAccount">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="WalletTracker.Account" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="2.94" />
+        <Point X="6.25" Y="3.2" />
+        <Point X="2.75" Y="3.2" />
+        <Point X="2.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAEAEAAAAAAAAAAAAAAAAABAYEAgAAAAAAAA=</HashCode>
+      <FileName>CreditAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalletTracker.DepositAccount">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="WalletTracker.Account" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="2.94" />
+        <Point X="6.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAACCIAAEAAAAAAAEABAAMAAAIAAABBEAAAAABAAQA=</HashCode>
+      <FileName>DepositAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalletTracker.SavingAccount">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAEAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>SavingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
