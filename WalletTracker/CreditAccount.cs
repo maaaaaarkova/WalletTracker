@@ -8,6 +8,7 @@ namespace WalletTracker
     {
         private const double percent = 0.15;
         private const double transferPercent = 0.05;
+
         public decimal Debt { get; set; }
 
         public CreditAccount()

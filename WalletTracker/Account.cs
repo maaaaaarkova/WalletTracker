@@ -10,7 +10,5 @@ namespace WalletTracker
         public abstract void AddMoney(decimal sum);
         public abstract void WithdrawMoney(decimal sum);
         public abstract void TransferMoney(decimal sum, Account account);
-
-       
     }
 }
